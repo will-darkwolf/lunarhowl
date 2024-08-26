@@ -36,7 +36,7 @@ resource "random_string" "suffix" {
 
 # Create a GCS bucket
 resource "google_storage_bucket" "wolf-bucket" {
-  name     = "wolf-${var.bucket_name}-${random_string.suffix.result}" # Choose a unique bucket name
+  name     = "Wolf-${var.bucket_name}-${random_string.suffix.result}" # Choose a unique bucket name
   project  = var.project_id
   location = "US" # Specify the desired region for your bucket
 
