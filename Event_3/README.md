@@ -13,10 +13,10 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 
 ## Evaluation Steps
 
-[ ] Update the terraform.tfvars file appropriately
-[ ] Run 'terraform apply'
-[ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-[ ] Verify that the PubSub topic was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-[ ] Add a new `backend` argument for the `terraform {}` in `main.tf` so that it uses the GCS bucket created in the apply [Example](https://developer.hashicorp.com/terraform/language/settings/backends/gcs#example-configuration)
-[ ] Run the migration `terraform init --migrate-state`
-[ ] Make a Git commit with your changes and push it back to GitLab
+- [ ] Update the terraform.tfvars file appropriately
+- [ ] Run 'terraform apply'
+- [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
+- [ ] Verify that the PubSub topic was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
+- [ ] Add a new `backend` argument for the `terraform {}` in `main.tf` so that it uses the GCS bucket created in the apply [Example](https://developer.hashicorp.com/terraform/language/settings/backends/gcs#example-configuration)
+- [ ] Run the migration `terraform init --migrate-state`
+- [ ] Make a Git commit with your changes and push it back to GitLab

@@ -13,8 +13,8 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 
 ## Evaluation Steps
 
-[ ] Update the terraform.tfvars file appropriately
-[ ] Make additions to the `main.tf` file to use the [gcs module](../../modules/gcs/README.md). Include only the required variables.
-[ ] Run 'terraform apply'
-[ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-[ ] Make a Git commit with your changes and push it back to GitLab
+- [ ] Update the terraform.tfvars file appropriately
+- [ ] Make additions to the `main.tf` file to use the [gcs module](../../modules/gcs/README.md). Include only the required variables.
+- [ ] Run 'terraform apply'
+- [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
+- [ ] Make a Git commit with your changes and push it back to GitLab
