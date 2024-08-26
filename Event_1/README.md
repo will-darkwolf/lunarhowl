@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This document provides a step-by-step guide to installing Terraform in a Google Cloud Platform (GCP) Cloud Shell instance. Terraform is a configuration language and tool for building and deploying cloud infrastructure.  Follow the steps outlined here to set up your environment. Terraform should already be installed into your Cloud Shell console, and you can use it to deploy various GCP resources, such as a GCS bucket. This guide will walk you through creating a basic configuration file using Terraform to deploy a GCS bucket to your GCP project.
+This document provides a step-by-step guide to using Terraform in a Google Cloud Platform (GCP) Cloud Shell instance. Terraform is a configuration language and tool for building and deploying cloud infrastructure.  Follow the steps outlined here to set up your environment. Terraform should already be installed into your Cloud Shell console, and you can use it to deploy various GCP resources, such as a GCS bucket. This guide will walk you through creating a basic configuration file using Terraform to deploy a GCS bucket to your GCP project.
 
 You will be using the GCP account that was assigned to you before this interview and Google Cloud Shell. You are not expected to run any of this code locally
 
