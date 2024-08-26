@@ -13,12 +13,12 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 
 ## Evaluation Steps
 
-[ ] Change directories into the `~/candidate-test/Event_2` directory
-[ ] Run 'terraform init'
-[ ] Run 'terraform apply'
-[ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-[ ] Run 'terraform destroy' to clean up the project
-[ ] Run `terraform fmt`
-[ ] Run `git add main.tf`
-[ ] Run `git commit -m "fix bucket code"`
-[ ] Run `git push`
+- [ ] Change directories into the `~/candidate-test/Event_2` directory
+- [ ] Run 'terraform init'
+- [ ] Run 'terraform apply'
+- [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
+- [ ] Run 'terraform destroy' to clean up the project
+- [ ] Run `terraform fmt`
+- [ ] Run `git add main.tf`
+- [ ] Run `git commit -m "fix bucket code"`
+- [ ] Run `git push`
