@@ -11,18 +11,26 @@ terraform {
 variable "project_id" {
   type        = string
   description = "The GCP project ID"
+  validation {
+    condition     = regex(var.project_id, "^[a-z0-9-]+$")
+    error_message = "Project ID must be lowercase alphanumeric with hyphens only."
+  }
 }
 
 variable "bucket_name" {
   type        = string
   description = "The name of the GCS bucket"
+  validation {
+    condition     = regex(var.bucket_name, "^[a-z]{1,5}$")
+    error_message = "Bucket name must contain no more than 5 lowercase letters."
+  }
 }
 
 resource "random_string" "suffix" {
   length  = 4
   special = false
-  lower = true
-  upper = false
+  lower   = true
+  upper   = false
 }
 
 
