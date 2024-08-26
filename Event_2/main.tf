@@ -21,7 +21,7 @@ variable "bucket_name" {
   type        = string
   description = "The name of the GCS bucket"
   validation {
-    condition     = can(regex("^[a-z]{1,5}$", var.bucket_name))
+    condition = can(regex("^[a-z]{1,5}$", var.bucket_name))
     error_message = "Bucket name must contain no more than 5 lowercase letters."
   }
 }
@@ -29,15 +29,15 @@ variable "bucket_name" {
 resource "random_string" "suffix" {
   length  = 4
   special = false
-  lower   = true
-  upper   = false
+  lower = true
+  upper = false
 }
 
 
 # Create a GCS bucket
 resource "google_storage_bucket" "wolf-bucket" {
-  name     = "Wolf-${var.bucket_name}-${random_string.suffix.result}" # Choose a unique bucket name
-  project  = var.project_id
+  name = "Wolf-${var.bucket_name}-${random_string.suffix.result}" # Choose a unique bucket name
+  project = var.project_id
   location = "US" # Specify the desired region for your bucket
 
   # Optional: Enable uniform bucket level access
