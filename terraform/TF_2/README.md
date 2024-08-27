@@ -1,4 +1,4 @@
-## Event 2
+# Basic Error Message Scenario
 
 ## BLUF
 **Challenge**: Similar to `TF_1`, but you will encounter an error. 
