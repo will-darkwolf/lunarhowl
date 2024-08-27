@@ -1,9 +1,10 @@
-## Event 4
+# Terraform Modules Scenario
 
-**Introduction**
+## BLUF
+**Challenge**: Rewrite the terraform code from `TF_1` to use a pre-made Terraform module
 
-Terraform modules
 
+## Introduction
 You will be using the GCP account that was assigned to you before this interview and Google Cloud Shell. You are not expected to run any of this code locally
 
 Find and resolve any immediate issues with the provided terraform code. Your goal is to deploy a GCS bucket, this time using a module which is available in the [modules/](../modules/) folder.
