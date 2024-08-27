@@ -34,3 +34,10 @@ Terraform challenges to test your abilities to complete tasks in Terraform.
 2. Reading error messages
 3. State migration
 4. Using modules
+
+### Git
+
+Git challenges
+1. Basic commit
+2. Broken merge
+3. Rewriting history
