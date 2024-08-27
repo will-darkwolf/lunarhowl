@@ -8,6 +8,9 @@ Basically, we are going to use a Personal Access Token (PAT) to `git clone` this
 
 ### 0. Configure Local Git
 1. In your Cloud Shell terminal, run `git config --global credential.helper cache`
+1. In your Cloud Shell terminal, run `git config --global user.name <your name>`
+1. In your Cloud Shell terminal, run `git config --global user.email <your email>@lunarhowl.dev`
+
 
 ### 1. Create Personal Access Token
 1. Create a Personal Access Token [Here](https://git.lunarhowl.dev/-/user_settings/personal_access_tokens)
