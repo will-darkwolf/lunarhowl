@@ -1,9 +1,9 @@
-## Event 3
+# State Migration Scenario
 
-**Introduction**
+## BLUF
+**Challenge**: Use Terraform to create a GCS bucket and a Pub/Sub topic in your project, then migrate your terraform state into the newly created GCS bucket
 
-Terraform state migration
-
+## Introduction
 You will be using the GCP account that was assigned to you before this interview and Google Cloud Shell. You are not expected to run any of this code locally
 
 Find and resolve any immediate issues with the provided terraform code. Your goal is to deploy a GCS bucket and a PubSub topic with a duration of `86600s`, then migrate the tfstate into the bucket that was created.
