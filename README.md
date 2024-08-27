@@ -21,3 +21,13 @@ Basically, we are going to use a Personal Access Token (PAT) to `git clone` this
 1. `git clone https://git.lunarhowl.dev/CANDIDATE/candidate-test.git`
     1. When prompted, use "test" for the username
     1. Use the PAT from above as your password
+
+## Events
+
+### Terraform
+
+Terraform challenges to test your abilities to complete tasks in Terraform.
+1. Basic apply
+2. Reading error messages
+3. State migration
+4. Using modules
