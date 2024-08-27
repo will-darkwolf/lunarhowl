@@ -22,7 +22,7 @@ Basically, we are going to use a Personal Access Token (PAT) to `git clone` this
     1. When prompted, use "test" for the username
     1. Use the PAT from above as your password
 
-## Events
+## Scenarios
 
 ### Terraform
 
