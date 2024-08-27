@@ -1,6 +1,9 @@
 ## Event 2
 
-**Introduction**
+## BLUF
+**Challenge**: Similar to `TF_1`, but you will encounter an error. 
+
+## Introduction
 
 Terraform validation error
 
@@ -14,10 +17,10 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 ## Evaluation Steps
 
 - [ ] Change directories into the `~/candidate-test/Event_2` directory
-- [ ] Run 'terraform init'
-- [ ] Run 'terraform apply'
+- [ ] Run `terraform init`
+- [ ] Run `terraform apply`
 - [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-- [ ] Run 'terraform destroy' to clean up the project
+- [ ] Run `terraform destroy` to clean up the project
 - [ ] Run `terraform fmt`
 - [ ] Run `git add main.tf`
 - [ ] Run `git commit -m "fix bucket code"`
