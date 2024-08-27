@@ -1,6 +1,10 @@
 ## Event 1
 
-**Introduction**
+## BLUF
+
+**Challenge**: Initialize a terraform state and apply it. This will create a GCS bucket in your project.
+
+## Introduction
 
 This document provides a step-by-step guide to using Terraform in a Google Cloud Platform (GCP) Cloud Shell instance. Terraform is a configuration language and tool for building and deploying cloud infrastructure.  Follow the steps outlined here to set up your environment. Terraform should already be installed into your Cloud Shell console, and you can use it to deploy various GCP resources, such as a GCS bucket. This guide will walk you through creating a basic configuration file using Terraform to deploy a GCS bucket to your GCP project.
 
@@ -12,7 +16,7 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 ## Evaluation Steps
 
 - [ ] Change directories into the `~/candidate-test/Event_1` directory
-- [ ] Run 'terraform init'
-- [ ] Run 'terraform apply'
+- [ ] Run `terraform init`
+- [ ] Run `terraform apply`
 - [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-- [ ] Run 'terraform destroy' to clean up the project
+- [ ] Run `terraform destroy` to clean up the project
