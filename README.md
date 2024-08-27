@@ -6,10 +6,10 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 
 Basically, we are going to use a Personal Access Token (PAT) to `git clone` this repo into our GCP Cloud Shell
 
-## 0. Configure Local Git
+### 0. Configure Local Git
 1. In your Cloud Shell terminal, run `git config --global credential.helper cache`
 
-## 1. Create Personal Access Token
+### 1. Create Personal Access Token
 1. Create a Personal Access Token [Here](https://git.lunarhowl.dev/-/user_settings/personal_access_tokens)
     1. Name it "pat"
     1. Set the expiration date to tomorrow
@@ -17,7 +17,7 @@ Basically, we are going to use a Personal Access Token (PAT) to `git clone` this
     1. Select "Create Private Access Token"
 1. Copy the PAT and save it a new document in your Cloud Shell console
 
-## 2. Clone this Repository
+### 2. Clone this Repository
 1. `git clone https://git.lunarhowl.dev/CANDIDATE/candidate-test.git`
     1. When prompted, use "test" for the username
     1. Use the PAT from above as your password
