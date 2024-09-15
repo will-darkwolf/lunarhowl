@@ -16,7 +16,7 @@ Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshe
 
 ## Evaluation Steps
 
-- [ ] Change directories into the `~/candidate-test/Event_2` directory
+- [ ] Change directories into the `~/candidate-test/TF_2` directory
 - [ ] Run `terraform init`
 - [ ] Run `terraform apply`
 - [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
