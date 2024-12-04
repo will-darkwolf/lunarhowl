@@ -22,7 +22,7 @@ variable "bucket_name" {
   description = "The name of the GCS bucket"
   validation {
     condition = can(regex("^[a-z]{1,5}$", var.bucket_name))
-    error_message = "Bucket name must contain no more than 5 lowercase letters."
+    error_message = "Bucket name must contain no more than 5 letters, all lower-case."
   }
 }
 
