@@ -1,21 +1,17 @@
-## Basic Apply Scenario
+## Terraform Challenge 1: Basic Apply
 
-## BLUF
+### Description
 
-**Challenge**: Initialize a terraform state and apply it. This will create a GCS bucket in your project.
+For the first task, you will create a GCS bucket using the terraform config provided. It should be as simple as supplying a valid bucket name and typing `yes`
 
-## Introduction
-This document provides a step-by-step guide to using Terraform in a Google Cloud Platform (GCP) Cloud Shell instance. Terraform is a configuration language and tool for building and deploying cloud infrastructure.  Follow the steps outlined here to set up your environment. Terraform should already be installed into your Cloud Shell console, and you can use it to deploy various GCP resources, such as a GCS bucket. This guide will walk you through creating a basic configuration file using Terraform to deploy a GCS bucket to your GCP project.
+### Instructions
+Change directories and prepare your terraform environment:
 
-You will be using the GCP account that was assigned to you before this interview and Google Cloud Shell. You are not expected to run any of this code locally
+```bash
+cd TF_1/
+terraform init
+terraform apply
+```
 
-**Cloud Shell**
-Please go to [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal) in your browser. If you are already signed into a Google account, we recommend that you make a new Chrome Browser login to ensure that you don't accidentally incure any charges in your personal Google account.
-
-## Evaluation Steps
-
-- [ ] Change directories into the `~/candidate-test/TF_1/` directory
-- [ ] Run `terraform init`
-- [ ] Run `terraform apply`
-- [ ] Verify that the GCS bucket was created [Cloud Console Link](https://console.cloud.google.com/storage/browser)
-- [ ] Run `terraform destroy` to clean up the project
+It will ask you for an input variable for naming the bucket, and you might have to refine your response.
+Keep attempting to run `terraform apply` until you get it to complete succesfully.

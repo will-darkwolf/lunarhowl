@@ -2,28 +2,9 @@
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps. 
+After you are logged into https://console.cloud.google.com/ and you have selected your project from the drop down in the top-left, you can click this magic link to populate the environment.
 
-Basically, we are going to use a Personal Access Token (PAT) to `git clone` this repo into our GCP Cloud Shell
-
-### 0. Configure Local Git
-1. In your Cloud Shell terminal, run `git config --global credential.helper cache`
-1. In your Cloud Shell terminal, run `git config --global user.name <your name>`
-1. In your Cloud Shell terminal, run `git config --global user.email <your email>@lunarhowl.dev`
-
-
-### 1. Create Personal Access Token
-1. Create a Personal Access Token [Here](https://git.lunar.darkwolf.rocks/user_settings/personal_access_tokens)
-    1. Name it "pat"
-    1. Set the expiration date to tomorrow
-    1. Give it "read repository" and "write repository" permissions
-    1. Select "Create Private Access Token"
-1. Copy the PAT and save it a new document in your Cloud Shell console
-
-### 2. Clone this Repository
-1. `git clone https://git.lunar.darkwolf.rocks/CANDIDATE/candidate-test.git`
-    1. When prompted, use "test" for the username
-    1. Use the PAT from above as your password
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fwill-darkwolf%2Flunarhowl&cloudshell_git_branch=main&cloudshell_open_in_editor=TF_1%2FREADME.md&cloudshell_workspace=terraform%2F&cloudshell_tutorial=README.md)
 
 ## Scenarios
 
